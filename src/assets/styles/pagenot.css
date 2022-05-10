@@ -1,0 +1,30 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #e7efff !important ;
+    height: 100%;
+}
+.error-container{
+    text-align: center;
+    height: 100%;
+   
+}
+.error-container h1{
+    position: relative;
+    transform:translateY(-50%);
+    font-size: 130px;
+    font-weight: 300;
+    margin-top: 20%;
+}
+.return {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    color: rgba(111, 69, 69, 0.6);
+font-weight: 400;
+letter-spacing: -0.04em;
+margin-top: 20px;
+
+  }
+  .return a{
+      color: black;
+  }

@@ -26,7 +26,7 @@ function App() {
             <Route path="product/:id" element={<Product />} />
             <Route path="category/:id" element={<Category />} />
             <Route path="updateprofile/:id" element={<UpdateProfile />} />
-            <Route  element={<PageNot />} />
+            <Route path="/*" element={<PageNot />} />
           </Routes>
         </BrowserRouter>
       </header>
