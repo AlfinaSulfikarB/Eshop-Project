@@ -44,6 +44,7 @@ function Category() {
                     <img
                       className="productImage"
                       src={require(`../assets/images/products/${category.fileName}`)}
+                      width={'200px'} height={'250px'}
                     />
                     <h3 className="productPrice">M.R.P.:₹{category.price}</h3>
                   </figure>

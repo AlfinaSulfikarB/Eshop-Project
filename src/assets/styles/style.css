@@ -84,12 +84,13 @@
     font-size: medium;
 }
 .dispCat{
-    align-items: center;
+    /* align-items: center; */
+    /* align-content: center; */
     width:60%;
     height:50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   
 }
 .ant-row{
@@ -114,4 +115,13 @@
     background-color: white !important;
     padding-left: 45%;
     
+}
+.card001{
+    margin: 20px;
+    padding: 10px;
+    align-content: center;
+}
+.card001 img{
+    width: 250px;
+    height: 250px;
 }
