@@ -1,0 +1,95 @@
+.Custom-body{
+    background-color: #e7efff; 
+    
+}
+.cardcustom{
+    background-color: #e7efff; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-top: 0.5px;
+    margin-right:5px;
+    /* margin-left: 5px; */
+    margin-bottom:5px;  
+    height: 70%; 
+    outline: none;
+    border: none;
+    
+
+}
+.sideNav{
+    margin-top: -60px;
+    /* zIndex: 3; */
+    
+    position: fixed
+  }
+.link{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+  }
+.navbarsizing{
+    margin-top: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #e7efff;
+    width: 20%;
+    height:fit-content;
+    min-height: 700px;
+    float: left;
+    /* border-radius: 2%; */
+    /* border-width: 0.5px;
+    border-style: solid; */
+}
+.wrapup{
+  position: relative;
+  max-width: 1298px;
+  height: auto;
+  margin: 2em auto 0 auto;
+  background: transparent url("https://www.dropbox.com/s/qq5n8w99q40wtrg/wood-fence.png?raw=1") no-repeat center top 24em;
+}
+.box{
+  max-width: 70%;
+  min-height: 600px;
+  margin: 0 auto;
+  padding: 1em 1em;
+  text-align: center;
+  background: transparent url("https://www.dropbox.com/s/ft9vhk6720t1k86/dog-family-colored-doodle-drawing.jpg?raw=1") no-repeat top 10em center;
+}
+#h1{
+  margin: 0 0 1rem 0;
+  font-size: 8em;
+  text-shadow: 0 0 6px #8b4d1a;
+}
+#ptag {
+  margin-bottom: 0.5em;
+  font-size: 1.75em;
+  color: #ea8a1a;
+}
+
+#ptag :first-of-type {
+  margin-top: 16em;
+  text-shadow: none;
+}
+
+#ptag  > a {
+  border-bottom: 1px dashed #837256;
+  font-style: italic;
+  text-decoration: none;
+  color: #837256;
+}
+
+#ptag  > a:hover { text-shadow: 0 0 3px #8b4d1a; }
+
+#ptag  img { vertical-align: bottom; }
+@media screen and (max-width: 600px) {
+  .wrapup {
+    background-size: 300px 114px;
+    background-position: center top 22em;
+    }
+
+  .box {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-size: 320px 185px;
+  }
+
+  #ptag :first-of-type { margin-top: 12em; }
+}

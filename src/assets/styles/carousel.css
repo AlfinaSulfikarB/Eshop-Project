@@ -1,0 +1,63 @@
+.contentStyle{
+    height: 400px;
+  line-height: 160px;
+  text-align: left;
+  text-decoration:dashed;
+  margin-top: 10px;
+  background-color: #98accf;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+};
+
+.contentStyle img{
+    object-fit: contain;
+    position: absolute;
+    flex-shrink: 0;
+    overflow: hidden;
+    justify-content: center;
+    object-fit: fill;
+    max-width: fit-content;
+    max-height: fit-content;
+    
+}
+
+.contentStyle h3{
+    color:#3f4756;
+    font-style: italic;
+    bottom: 0;
+    padding-top: 10px;
+    padding-left:15px;
+}
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  padding: 0;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.ant-carousel .slick-slide {
+    display: block;
+    object-fit: cover;
+    float: center;
+    height: 100%;
+    min-height: 1px;
+  }
+  .ant-carousel .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    touch-action: pan-y;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    object-fit: cover;
+    min-width: 100%;
+  }

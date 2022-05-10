@@ -1,0 +1,13 @@
+.horizontal-navbar{
+
+    padding-left: 10px;
+    background-color: #E7EFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 39, 69);
+    align-content: center;
+    font-size: large;
+
+}
+tr{
+    display: inline-block;
+}

@@ -1,0 +1,40 @@
+Card{
+    width: 360px;
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;  
+    padding: .5rem;
+
+}
+.grid{
+    color:blue;
+    width: 25%;
+  text-align:center;
+  display: grid;
+  grid-gap:20px;
+  align-items: stretch;
+  grid-template-columns: repeat(6, 1fr);
+grid-auto-rows: auto;
+grid-gap: 3rem;
+
+  
+}
+#productImage{
+  width:150px;
+  height:130px;
+}
+.productImage{
+  width:150px;
+  height:130px;
+}
+.prodCard{
+  align-content: center;
+}
+.containerfluid{
+  align-items: flex-end;
+  display: flex;
+    justify-content: space-between;
+   
+}
+.cardprodhome{
+  font-size: medium;
+}

@@ -1,0 +1,78 @@
+.cardprod {
+   
+    background-color: white;
+    box-sizing: content-box;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.card__title {
+    margin: 5px;;
+    font-size: 2rem;
+    padding: .5px;
+}
+.card__description {
+    padding: 5px;
+    margin: 5px;
+    line-height: 1.6em;
+    color:black;
+}
+.button001 {
+    display: block;
+    background-color: #bbb8e5;
+    padding: 10px 20px;
+    color: rgb(8, 7, 7);
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: inline-end;
+    margin: 10px;
+}
+.card-container {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-left: 10%;
+}
+.productImage{
+    align-self: center;
+    width:auto;
+    height:auto;
+    max-width: 300px;
+}
+.productPrice{
+    align-self: flex-start;
+    margin: 10px;
+    padding: 15px;
+}
+.myDIV{
+    color:rgb(50, 50, 217)
+}
+#leftbox {
+    float:left; 
+    width:50%;
+    height:auto;
+}
+#rightbox{
+    float:right; 
+    width:50%;
+    height:auto;
+}
+.button2 {
+    display: block;
+    background-color: #f9b9c9;
+    padding: 10px 20px;
+    color: rgb(8, 7, 7);
+    text-decoration: none;
+    text-align: center;
+    transition: .3s ease-out;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: inline-start;
+    margin: 10px;
+}

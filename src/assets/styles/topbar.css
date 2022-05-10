@@ -1,0 +1,35 @@
+.horizontal-container{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: #e7efff; 
+    width: auto;
+    height: 110px;
+}
+.child-right{
+    float: left;
+    margin-left: 20px;
+    width: 170px;
+    height: 70px;
+}
+.child-left{
+    float:right;
+    width: fit-content;
+    height: 70px;
+}
+.horizontal-container logo-container{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 170px;
+    height: 70px;
+}
+.logo-container  img {
+    
+    width: 170px;
+    height: 70px;
+    border-radius: 4px;
+    align-self: left;
+  
+  }
+  .horizontal-container2{
+    background-color: #e7efff; 
+  }
