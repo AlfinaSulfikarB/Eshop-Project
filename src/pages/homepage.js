@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Foot from "../components/FooterComponent/Footer";
+import Foot from "../components/FooterComponent/footer";
 import Topbar from "../components/TopBarComponent/Topbar";
 import Navbar from "../components/NavbarComponent/Navbar";
 import "../assets/styles/home.css";

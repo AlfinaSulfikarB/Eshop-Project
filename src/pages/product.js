@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import Topbar from "../components/TopBarComponent/Topbar";
 import Navbar from "../components/NavbarComponent/Navbar";
-import Foot from "../components/FooterComponent/Footer";
+import Foot from "../components/FooterComponent/footer";
 import { Button, message } from "antd";
 import axios from "axios";
 import "../assets/styles/product.css";

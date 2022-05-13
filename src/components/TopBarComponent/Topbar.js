@@ -47,12 +47,12 @@ function Topbar() {
                 <PersonPinIcon onClick={onClickPerson} />
               </div>
               <FavoriteIcon onClick={onClickFav} style={{ color: "	#C61562" }} />
-              &nbsp; &nbsp; &nbsp;
+           
               <ShoppingCartIcon
                 onClick={onClickCart}
                 style={{ color: "black" }}
               />
-              &nbsp;&nbsp;&nbsp;
+            
               <LogoutIcon onClick={onClickLog} style={{ color: "black" }} />
             </Toolbar>
           </div>

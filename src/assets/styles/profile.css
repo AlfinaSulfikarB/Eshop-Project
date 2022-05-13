@@ -44,7 +44,7 @@ TextArea{
     border-radius: 4px;
     box-sizing: border-box;
   }
-#iputpass-word{
+#iputpass-word button{
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -52,6 +52,7 @@ TextArea{
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    color:blue;
   }  
  Select{
     width: 60%;

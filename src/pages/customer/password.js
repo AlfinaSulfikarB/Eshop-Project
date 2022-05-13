@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../../assets/styles/style.css";
+import "../../assets/styles/profile.css";
 import { Button } from "antd";
 import { useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
@@ -24,20 +24,8 @@ export default function Demo2() {
 
       .matches(/[A-Z].*[A-Z]/, "must contain two uppercase characters")
       .matches(/[a-z].*[a-z]/, "must contain 2 lowercase characters")
-      .matches(/(?:[^`!@#$%^&*\-_=+'\/.,]*[`!@#$%^&*\-_=+'\/.,]){2}/, "atmost 2 special characters"),
-    //   .test('atMost2SpecialCharacters', 'Atmost 2 special characters are allowed!', 
-    //   function (value) {
-    //     return new Promise((resolve, reject) => {
-    //         const specialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]/gi;
-    //         const allFoundCharacters = value.match(specialChars);
-    //         if (allFoundCharacters.length > 2) {
-    //             resolve(false);
-    //         } else {
-    //             resolve(true);
-    //         }
-    //     });
-    // }),
-      
+      .matches(/(?:[^`!@#$%^&*\-_=+'\/.,]*[`!@#$%^&*\-_=+'\/.,]){0,2}/, "atmost 2 special characters"),
+  
 
     newPassword: Yup.string("Confirm Password")
       .oneOf([Yup.ref("passwords"), null], "Passwords must match")

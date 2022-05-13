@@ -6,7 +6,7 @@ import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import axios from "axios";
 import "../assets/styles/login.css";
-import Foot from "../components/FooterComponent/Footer";
+import Foot from "../components/FooterComponent/footer";
 
 const validationSchema = yup.object({
   email: yup

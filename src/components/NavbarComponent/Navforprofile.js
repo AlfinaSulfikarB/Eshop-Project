@@ -9,7 +9,7 @@ import { DownOutlined, SmileOutlined } from '@ant-design/icons';
 
 
 
-function Navbar() {
+function NavProf() {
    
     const [categories,setCategories]=useState([]);
     useEffect(()=>{
@@ -25,7 +25,7 @@ function Navbar() {
    
     let navigate = useNavigate();
     const handleHome = () => {
-        navigate("../home")
+        navigate("../../home")
     }
     
     let category= (categories.map((categ,key)=>
@@ -44,7 +44,7 @@ function Navbar() {
                    <Menu>
                        {categories.map((category,key)=>
                    <Menu.Item >
-                 <Link to={`../category/${category.categoryId}`}>{category.categoryName} </Link>
+                 <Link to={`../../category/${category.categoryId}`}>{category.categoryName} </Link>
                    </Menu.Item>
                        )}
                </Menu> 
@@ -55,12 +55,10 @@ function Navbar() {
                            <DownOutlined />
                        </Space>
                    </a>
-               </Dropdown>
-            
-              
+               </Dropdown>     
                
             </div>
         </>
     )
 };
-export default Navbar;
+export default NavProf;

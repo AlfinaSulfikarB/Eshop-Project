@@ -16,12 +16,14 @@ import Demo1 from "./profile";
 import Demo2 from "./password";
 import Demo3 from "./contact";
 import Wishlist from "./wishlist";
-import Foot from "../../components/FooterComponent/Footer";
+import Foot from "../../components/FooterComponent/footer";
 import Cart from "./basket";  
+import NavProf from "../../components/NavbarComponent/Navforprofile";
 
 const drawerWidth = 240;
 
 class Customer extends Component{
+  
     constructor() {
         super();
         this.state = {
@@ -74,7 +76,7 @@ class Customer extends Component{
     <Topbar/>
     </div>
     <div>
-        <Navbar/>
+        <NavProf/>
         <br />
     </div>
     
@@ -121,7 +123,7 @@ class Customer extends Component{
       
       
       </div>
-      <Divider />
+      
       <div className="componentarea">
           <div>
               {showHideDemo1 && <Demo1/>}

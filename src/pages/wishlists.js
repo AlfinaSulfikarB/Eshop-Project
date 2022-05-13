@@ -1,6 +1,6 @@
 import React from "react";
 import Wishlist from  './customer/wishlist';
-import Foot from "../components/FooterComponent/Footer";
+import Foot from "../components/FooterComponent/footer";
 import Navbar from "../components/NavbarComponent/Navbar";
 import Topbar from '../components/TopBarComponent/Topbar';
 import '../assets/styles/wishlist.css';

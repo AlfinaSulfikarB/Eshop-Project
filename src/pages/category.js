@@ -3,7 +3,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
 import Topbar from "../components/TopBarComponent/Topbar";
 import Navbar from "../components/NavbarComponent/Navbar";
-import Foot from "../components/FooterComponent/Footer";
+import Foot from "../components/FooterComponent/footer";
 import "../assets/styles/style.css";
 import { Row, Col, Divider, Button } from "antd";
 
