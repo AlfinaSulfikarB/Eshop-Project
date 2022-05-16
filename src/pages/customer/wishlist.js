@@ -5,26 +5,22 @@ import {message} from 'antd';
 import { Navigate, useNavigate } from "react-router-dom";
 const Wishlist=()=>{
     const [items, setItems] = useState();
-    const [refresh, setRefresh] = useState(0);
     let navigate=useNavigate();
       
         useEffect(() => {
-          // getCustomer();
-          let navid= localStorage.getItem('customerId');
-              console.log(navid);
-          axios
-            .get(`http://localhost/Eshop/Api/wishlist.php?cust=${navid}`)
-            .then(function (response) {
-              console.log(response.data);
-              
-              setRefresh(refresh + 1);
-             // console.log(refresh);
-              setItems(response.data);
-            });
+          getCustomer();
           
-        }, [refresh]);
+        }, []);
         
         function getCustomer() {
+          let navid= localStorage.getItem('customerId');
+          console.log(navid);
+      axios
+        .get(`http://localhost/Eshop/Api/wishlist.php?cust=${navid}`)
+        .then(function (response) {
+          console.log(response.data);
+          setItems(response.data);
+        });
           
         }
 
@@ -37,12 +33,12 @@ const Wishlist=()=>{
           .then(function(response){
             console.log(response.data);
             message.success("Product Removed");
-            setRefresh(refresh + 1);
             setItems(response.data); 
             message.success(response.data);
-            
+                 
            
           });
+          getCustomer();    
       
         }
 let id=localStorage.getItem('token');

@@ -2,9 +2,23 @@
     background-color: #e7efff; 
     
 }
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif  !important;
+}
+
+.css-10hburv-MuiTypography-root {
+  margin:0;
+  font-family: Georgia, 'Times New Roman', Times, serif  !important;
+  font-weight:400;
+  font-size:1rem;
+  line-height:1.5;
+  letter-spacing:0.00938em;
+  display:block;
+ }
+ 
 .cardcustom{
     background-color: #e7efff; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
     /* margin-top: 0.5px;
     margin-right:5px;
     /* margin-left: 5px; */
